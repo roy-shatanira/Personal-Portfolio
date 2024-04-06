@@ -1,0 +1,152 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-cont{
+        flex-wrap: wrap;
+    }
+
+    /*.about-pic-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }*/
+
+    #contact, #projects{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #desknav{
+        display:none;
+    }
+    #hamburger{
+        display:flex;
+    }
+
+    .about-pic-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    #profile .text{
+        margin: auto;
+    }
+
+    #exp, .exp-details-cont{
+        margin-top: 2rem;
+    }
+
+    #profile, .container{
+        display: block;
+    }
+
+    .arrow{
+        display:none;
+    }
+
+    section, .container{
+        height: fit-content;
+    }
+
+    section{
+        margin: 0 5%;
+    }
+
+    .pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-cont{
+        margin-top: 0;
+    }
+}
+
+@media screen and(max-width: 600px){
+
+    *{
+        margin: auto;
+        padding: auto;
+    }
+
+    #contact, footer{
+        height: 40vh;
+    }
+
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    article{
+        font-size: 1rem;
+    }
+
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-cont, .contact-upper-cont, .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .exp-cont{
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exp-details-cont{
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-info-cont{
+        margin: 0;
+    }
+
+    .contact-info-cont p, .navlinks li a{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        font-size: 1.25rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .navlinks{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .p2{
+        font-size: 1.25rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .text{
+        text-align: justify;
+    }
+}
