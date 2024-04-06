@@ -14,9 +14,9 @@
         margin-bottom: 2rem;
     }*/
 
-    #contact, #projects{
+    /*#contact, #projects{
         height: fit-content;
-    }
+    }*/
 }
 
 @media screen and (max-width: 1300px){
